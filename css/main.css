@@ -1,26 +1,37 @@
 *{
-    outline: 1px solid rgba(0,255,0,0.3);
+    font-family: "Bad Script";
 }
+p{font-family: "Sahitya"}
 /*---------------------HEADER------------------*/
 header {
     background-color: #da2c38;
 }
 header a{
      color: #f4f0bb;
+    font-weight: bold;
 }
 .navbar{
     margin: 0;
 }
 /*---------------------SECTION-HERO------------------*/
 .hero{
-    background-image: url(../img/creamy.jpg);
-    height: auto;
+    background-color: rgb(244,240,187,0.7);
+    padding: 10px 0;
+}
+.caption-cream{
+    padding: 2%;
+    background-color: rgba(218,44,56,0.6);
+    border-radius: 20px;
+}
+#carousel-1{
+    background-color: #da2c38;
 }
 /*---------------------SECTION-1------------------*/
 .section-1{
     background-color: #f4f0bb;
     color:#da2c38;
     text-align: center;
+    padding: 2% 0;
 }
 /*---------------------SECTION-2------------------*/
 .section-2{
@@ -47,4 +58,5 @@ footer{
     background-color: #da2c38;
     color: #f4f0bb;
     padding: 1% 0;
+    font-weight: bolder;
 }
