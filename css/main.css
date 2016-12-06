@@ -31,6 +31,15 @@ header a{
 .navbar{
     margin: 0;
 }
+header .navbar-toggle{
+    background-color: #f4f0bb;
+}
+.navbar-header span{
+    background-color: #da2c38;
+}
+.navbar .nav{
+    float: right;
+}
 /*---------------------SECTION-HERO------------------*/
 .hero{
     background-color: rgb(244,240,187,0.7);
@@ -81,4 +90,7 @@ footer{
 /*---------------------MEDIA-QUERIES------------------*/
 @media screen and (max-width:1000px){
     footer{text-align: center;}
+}
+@media screen and (max-width:767px){
+    .navbar .nav{float: none; text-align: center;}
 }
