@@ -1,0 +1,50 @@
+*{
+    outline: 1px solid rgba(0,255,0,0.3);
+}
+/*---------------------HEADER------------------*/
+header {
+    background-color: #da2c38;
+}
+header a{
+     color: #f4f0bb;
+}
+.navbar{
+    margin: 0;
+}
+/*---------------------SECTION-HERO------------------*/
+.hero{
+    background-image: url(../img/creamy.jpg);
+    height: auto;
+}
+/*---------------------SECTION-1------------------*/
+.section-1{
+    background-color: #f4f0bb;
+    color:#da2c38;
+    text-align: center;
+}
+/*---------------------SECTION-2------------------*/
+.section-2{
+   background-color:#da2c38;
+    text-align: center;
+    color: #f4f0bb;
+    padding: 3% 0;
+}
+/*---------------------SECTION-3------------------*/
+.section-3{
+    background-color: #f4f0bb;
+    text-align: center;
+    padding: 3% 0;
+}
+.section-3 .icon{
+    color: #da2c38;
+    font-size: 50px;
+}
+.section-3 .icon:hover{
+    text-shadow: -5px 2px rgba(218,44,56,0.5);
+}
+/*---------------------FOOTER------------------*/
+footer{
+    background-color: #da2c38;
+    color: #f4f0bb;
+    padding: 1% 0;
+}
